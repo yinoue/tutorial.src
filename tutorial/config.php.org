@@ -1,0 +1,27 @@
+<?php
+// ----------------------------------------------------
+// Partner Dashboard の各値を設定してください。
+// ----------------------------------------------------
+
+//ライフサイクルイベントに関する設定
+define('LIFECYCLE_EVENT_ADD_URL', 'http://[YOUR DOMAIN]/lifecycle-event-add.php');
+
+// RESTful API 利用に関する設定
+define('RESTFUL_CONSUMER_KEY', '[YOUR RESTFUL CONSUMER KEY]');
+define('RESTFUL_CONSUMER_SECRET', '[YOUR RESTFUL CONSUMER SECRET]');
+
+// 新方式(GraphAPI)利用に関する設定(PC、モバイル、スマートフォン)
+define('CONSUMER_KEY', '[YOUR CONSUMER KEY]');
+define('CONSUMER_SECRET', '[YOUR CONSUMER SECRET]');
+define('REDIRECT_URI', 'http://[YOUR DOMAIN]/redirect.php');
+
+// PC対応アプリに関する設定
+define('START_URL', 'http://[YOUR DOMAIN]/start.php');
+
+// ----------------------------------------------------------------------------
+// JavaScriptAPI利用の準備 手順1. のファイルを設置したURLを設定してください。
+// http://developer.mixi.co.jp/appli/ns/pc/prepare_for_javascript_api/
+// ----------------------------------------------------------------------------
+define('RELAY_URL', 'http://[YOUR DOMAIN]/relay.html');
+
+
